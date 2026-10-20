@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;700&display=swap&subset=cyrillic,latin');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.video-bg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    z-index: -777;
+}
+
+body {
+    font-family: 'Cormorant SC', serif;
+    color: #fff;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    transform: translateY(120px);
+}
+
+.card h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    opacity: 0.95;
+}
